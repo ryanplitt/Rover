@@ -5,6 +5,7 @@
 ## Build generated
 build/
 DerivedData/
+APIKeys.plist
 
 ## Various settings
 *.pbxuser
