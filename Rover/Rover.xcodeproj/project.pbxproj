@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB73FA461ED37C66009753ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB73FA451ED37C66009753ED /* main.m */; };
+		FB73FA491ED37C66009753ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB73FA481ED37C66009753ED /* AppDelegate.m */; };
+		FB73FA4C1ED37C66009753ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB73FA4B1ED37C66009753ED /* ViewController.m */; };
+		FB73FA4F1ED37C66009753ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB73FA4D1ED37C66009753ED /* Main.storyboard */; };
+		FB73FA511ED37C66009753ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB73FA501ED37C66009753ED /* Assets.xcassets */; };
+		FB73FA541ED37C66009753ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB73FA521ED37C66009753ED /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB73FA411ED37C66009753ED /* Rover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB73FA451ED37C66009753ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB73FA471ED37C66009753ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB73FA481ED37C66009753ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB73FA4A1ED37C66009753ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB73FA4B1ED37C66009753ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB73FA4E1ED37C66009753ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB73FA501ED37C66009753ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB73FA531ED37C66009753ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB73FA551ED37C66009753ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB73FA3E1ED37C66009753ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB73FA381ED37C66009753ED = {
+			isa = PBXGroup;
+			children = (
+				FB73FA431ED37C66009753ED /* Rover */,
+				FB73FA421ED37C66009753ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB73FA421ED37C66009753ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB73FA411ED37C66009753ED /* Rover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB73FA431ED37C66009753ED /* Rover */ = {
+			isa = PBXGroup;
+			children = (
+				FB73FA471ED37C66009753ED /* AppDelegate.h */,
+				FB73FA481ED37C66009753ED /* AppDelegate.m */,
+				FB73FA4A1ED37C66009753ED /* ViewController.h */,
+				FB73FA4B1ED37C66009753ED /* ViewController.m */,
+				FB73FA4D1ED37C66009753ED /* Main.storyboard */,
+				FB73FA501ED37C66009753ED /* Assets.xcassets */,
+				FB73FA521ED37C66009753ED /* LaunchScreen.storyboard */,
+				FB73FA551ED37C66009753ED /* Info.plist */,
+				FB73FA441ED37C66009753ED /* Supporting Files */,
+			);
+			path = Rover;
+			sourceTree = "<group>";
+		};
+		FB73FA441ED37C66009753ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB73FA451ED37C66009753ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB73FA401ED37C66009753ED /* Rover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB73FA581ED37C66009753ED /* Build configuration list for PBXNativeTarget "Rover" */;
+			buildPhases = (
+				FB73FA3D1ED37C66009753ED /* Sources */,
+				FB73FA3E1ED37C66009753ED /* Frameworks */,
+				FB73FA3F1ED37C66009753ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rover;
+			productName = Rover;
+			productReference = FB73FA411ED37C66009753ED /* Rover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB73FA391ED37C66009753ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ryan Plitt";
+				TargetAttributes = {
+					FB73FA401ED37C66009753ED = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H4854S58A9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FB73FA3C1ED37C66009753ED /* Build configuration list for PBXProject "Rover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB73FA381ED37C66009753ED;
+			productRefGroup = FB73FA421ED37C66009753ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB73FA401ED37C66009753ED /* Rover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB73FA3F1ED37C66009753ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB73FA541ED37C66009753ED /* LaunchScreen.storyboard in Resources */,
+				FB73FA511ED37C66009753ED /* Assets.xcassets in Resources */,
+				FB73FA4F1ED37C66009753ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB73FA3D1ED37C66009753ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB73FA4C1ED37C66009753ED /* ViewController.m in Sources */,
+				FB73FA491ED37C66009753ED /* AppDelegate.m in Sources */,
+				FB73FA461ED37C66009753ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB73FA4D1ED37C66009753ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB73FA4E1ED37C66009753ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB73FA521ED37C66009753ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB73FA531ED37C66009753ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB73FA561ED37C66009753ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB73FA571ED37C66009753ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB73FA591ED37C66009753ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4854S58A9;
+				INFOPLIST_FILE = Rover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RyanPlitt.Rover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB73FA5A1ED37C66009753ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4854S58A9;
+				INFOPLIST_FILE = Rover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RyanPlitt.Rover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB73FA3C1ED37C66009753ED /* Build configuration list for PBXProject "Rover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB73FA561ED37C66009753ED /* Debug */,
+				FB73FA571ED37C66009753ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB73FA581ED37C66009753ED /* Build configuration list for PBXNativeTarget "Rover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB73FA591ED37C66009753ED /* Debug */,
+				FB73FA5A1ED37C66009753ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB73FA391ED37C66009753ED /* Project object */;
+}
